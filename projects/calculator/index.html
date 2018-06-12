@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>JamesW.ninja - VIDEOS</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/jamesw.css">
+    <link rel="stylesheet" href="calculator.css">
+    <script src="calculator.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">JamesW.Ninja</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/">ME</a>
+                    </li>
+                    <li>
+                        <a href="/projects">PROJECTS</a>
+                    </li>
+                    <li>
+                        <a href="/videos">VIDEOS</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid bg-1 text-center">
+      <h1>Calculator</h1>
+    </div>
+
+    <div class="container-fluid bg-3 text-center">
+        <h3></h3>
+        <div class="row">
+                <div class="container text-center" id="calc">
+                        <div class="calcBG col-md-3 col-md-offset-4 text-center">
+                          <div class="row">
+                            <small>Bootstrap Calculator</small>
+                          </div>
+                          <div class="row" id="result">
+                            <form name="calc">
+                              <input type="text" class="screen text-right" name="result" readonly>
+                            </form>
+                          </div>
+                          <div class="row">
+                            <button id="allClear" type="button" class="btn btn-danger" onclick="clearScreen()">AC</button>
+                            <button id="clear" type="button" class="btn btn-warning" onclick="clearScreen()">CE</button>
+                            <button id="%" type="button" class="btn btn-info" onclick="myFunction(this.id)">%</button>
+                            <button id="/" type="button" class="btn btn-info" onclick="myFunction(this.id)">÷</button>
+                          </div>
+                          <div class="row">
+                            <button id="7" type="button" class="btn btn-info" onclick="myFunction(this.id)">7</button>
+                            <button id="8" type="button" class="btn btn-info" onclick="myFunction(this.id)">8</button>
+                            <button id="9" type="button" class="btn btn-info" onclick="myFunction(this.id)">9</button>
+                            <button id="*" type="button" class="btn btn-info" onclick="myFunction(this.id)">x</button>
+                          </div>
+                          <div class="row">
+                            <button id="4" type="button" class="btn btn-info" onclick="myFunction(this.id)">4</button>
+                            <button id="5" type="button" class="btn btn-info" onclick="myFunction(this.id)">5</button>
+                            <button id="6" type="button" class="btn btn-info" onclick="myFunction(this.id)">6</button>
+                            <button id="-" type="button" class="btn btn-info" onclick="myFunction(this.id)">-</button>
+                          </div>
+                          <div class="row">
+                            <button id="1" type="button" class="btn btn-info" onclick="myFunction(this.id)">1</button>
+                            <button id="2" type="button" class="btn btn-info" onclick="myFunction(this.id)">2</button>
+                            <button id="3" type="button" class="btn btn-info" onclick="myFunction(this.id)">3</button>
+                            <button id="+" type="button" class="btn btn-info" onclick="myFunction(this.id)">+</button>
+                          </div>
+                          <div class="row">
+                            <button id="0" type="button" class="btn btn-info" onclick="myFunction(this.id)">0</button>
+                            <button id="." type="button" class="btn btn-info" onclick="myFunction(this.id)">.</button>
+                            <button id="equals" type="button" class="btn btn-success" onclick="calculate()">=</button>
+                            <button id="blank" type="button" class="btn btn-info">&nbsp;</button>
+                          </div>
+                        </div>
+                      </div>
+            <div class="col-sm-4">
+            </div>
+            <div class="col-sm-4">
+            </div>
+        </div>
+    </div>
+
+    <footer class="container-fluid footer-bg text-center">
+        <p>Site made by 
+            <a href="/">JamesW.Ninja</a>
+        </p>
+    </footer>
+</body>
+
+</html>

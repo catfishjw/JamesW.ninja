@@ -1,0 +1,43 @@
+body {
+    font: 20px "Montserrat", sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+}
+
+p {font-size: 16px;}
+.bg-1 { 
+    background-color: #78736f; /* Grey */
+    color: #ffffff;
+}
+.bg-2 { 
+    background-color: #1b4965; /* Dark Blue */
+    color: #ffffff;
+}
+.bg-3 { 
+    background-color: #ffffff; /* white */
+    color: #555555;
+}
+.container-fluid {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+    background-color: #1b4965; /* Dark Blue */
+    color: #555555;
+}
+.navbar-nav li a:hover {
+    color: #ffffff !important;
+    
+}
+.footer-bg { 
+    background-color: #1f2127;
+    color: #ffffff;
+}
+.margin {margin-bottom: 45px;}
